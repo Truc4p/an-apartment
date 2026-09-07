@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/studio/", "/api/"],
       },
     ],
-    sitemap: "https://listing-psi.vercel.app/sitemap.xml",
+    sitemap: "https://an-apartment.vercel.app/sitemap.xml",
   };
 }

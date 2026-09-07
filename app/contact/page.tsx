@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Contact AN Apartment for a free consultation on rooms and apartments for rent in Da Nang.",
   alternates: {
-    canonical: "https://listing-psi.vercel.app/contact",
+    canonical: "https://an-apartment.vercel.app/contact",
   },
 };
 

@@ -112,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: room.title,
     description,
     alternates: {
-      canonical: `https://listing-psi.vercel.app/rooms/${slug}`,
+      canonical: `https://an-apartment.vercel.app/rooms/${slug}`,
     },
     openGraph: {
       title: `${room.title} | AN Apartment`,
@@ -154,14 +154,14 @@ export default async function RoomDetailPage({ params }: Props) {
       )}
       <BreadcrumbListJsonLd
         items={[
-          { name: "Home", url: "https://listing-psi.vercel.app" },
+          { name: "Home", url: "https://an-apartment.vercel.app" },
           {
             name: "Rooms & Apartments",
-            url: "https://listing-psi.vercel.app/rooms",
+            url: "https://an-apartment.vercel.app/rooms",
           },
           {
             name: room.title,
-            url: `https://listing-psi.vercel.app/rooms/${slug}`,
+            url: `https://an-apartment.vercel.app/rooms/${slug}`,
           },
         ]}
       />

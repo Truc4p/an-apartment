@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllRoomSlugs } from "@/lib/rooms";
 
-const BASE_URL = "https://listing-psi.vercel.app";
+const BASE_URL = "https://an-apartment.vercel.app";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = await getAllRoomSlugs();

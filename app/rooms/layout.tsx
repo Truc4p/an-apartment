@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Browse rooms and apartments for rent at AN Apartment, Son Tra, Da Nang. Fully equipped, affordable pricing.",
   alternates: {
-    canonical: "https://listing-psi.vercel.app/rooms",
+    canonical: "https://an-apartment.vercel.app/rooms",
   },
 };
 

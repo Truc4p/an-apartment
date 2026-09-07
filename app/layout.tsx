@@ -25,7 +25,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://listing-psi.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://an-apartment.vercel.app"
   ),
   title: {
     default: "AN Apartment | Rooms & Apartments for Rent in Da Nang",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://listing-psi.vercel.app",
+    url: "https://an-apartment.vercel.app",
     siteName: "AN Apartment",
     title: "AN Apartment | Rooms & Apartments for Rent in Da Nang",
     description:
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://listing-psi.vercel.app",
+    canonical: "https://an-apartment.vercel.app",
   },
 };
 
