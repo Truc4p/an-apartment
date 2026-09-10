@@ -27,7 +27,6 @@ export async function getAvailableRooms(): Promise<Room[]> {
     .collection("rooms")
     .find({ available: true })
     .sort({ order: 1, createdAt: -1 })
-    .limit(6)
     .project({ title: 1, slug: 1, type: 1, price: 1, area: 1, floor: 1, available: 1, "images": { $slice: 1 } })
     .toArray();
   return docs.map(toRoom);
