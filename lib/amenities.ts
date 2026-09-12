@@ -21,7 +21,6 @@ export const AMENITY_MAP: Record<
   ac: { label: "Air conditioning", Icon: AirVent },
   water_heater: { label: "Water heater", Icon: ShowerHead },
   balcony: { label: "Balcony", Icon: Flower2 },
-  mezzanine: { label: "Mezzanine", Icon: Layers },
   fridge: { label: "Refrigerator", Icon: Refrigerator },
   washer: { label: "Washing machine", Icon: WashingMachine },
   kitchen: { label: "Private kitchen", Icon: ChefHat },

@@ -11,7 +11,6 @@ const AMENITY_OPTIONS = [
   { value: "ac", label: "Air conditioning" },
   { value: "water_heater", label: "Water heater" },
   { value: "balcony", label: "Balcony" },
-  { value: "mezzanine", label: "Mezzanine" },
   { value: "fridge", label: "Refrigerator" },
   { value: "washer", label: "Washing machine" },
   { value: "kitchen", label: "Kitchen" },
